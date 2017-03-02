@@ -2,15 +2,15 @@
 
 > PostCSS plugin to polyfill the CSS Box Alignment shorthands: place-<content|self|items>
 
-Valid values:
+## Spec
 
-```css
-place-content: <flex-start|flex-end|center|space-between|space-around|space-evenly|stretch>;
-place-self: <auto|flex-start|flex-end|center|baseline|stretch>;
-place-items: <flex-start|flex-end|center|baseline|stretch>;
-/* CSS keywords */
-<place-items|place-self|place-content>: <inherit|initial|unset|revert>
-```
+[place-content](https://drafts.csswg.org/css-align-3/#propdef-place-content)
+
+[place-self](https://drafts.csswg.org/css-align-3/#place-self-property)
+
+[place-items](https://drafts.csswg.org/css-align-3/#place-items-property) 
+
+## How to use
 
 Using this:
 
@@ -75,12 +75,6 @@ postcss([ require('postcss-place') ])
 Check how to use with [Gulp](https://github.com/postcss/gulp-postcss),
 [Grunt](https://github.com/nDmitry/grunt-postcss),
 [Webpack, Node.js etc](https://github.com/postcss/postcss)
-
-## Spec
-
-[place-content](https://drafts.csswg.org/css-align-3/#propdef-place-content) 
-[place-self](https://drafts.csswg.org/css-align-3/#place-self-property) 
-[place-items](https://drafts.csswg.org/css-align-3/#place-items-property) 
 
 ## [Changelog](CHANGELOG.md)
 
