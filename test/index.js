@@ -10,6 +10,10 @@ function read(name) {
     return fs.readFileSync(name, 'utf8');
 }
 
+/**
+ * Generate the actual output from the source
+ * and compare it with the expected one
+ */
 function compareFixtures(t, name, msg, opts, postcssOpts) {
     postcssOpts = postcssOpts || {};
     postcssOpts.from = filename(`fixtures/${name}`);
