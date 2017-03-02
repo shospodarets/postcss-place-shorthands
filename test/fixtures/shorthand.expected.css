@@ -1,0 +1,38 @@
+.single {
+    align-content: space-between;
+    justify-content: space-between;
+    place-content: space-between;
+    align-self: flex-end;
+    justify-self: flex-end;
+    place-self: flex-end;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+}
+
+.double {
+    align-content: space-between;
+    justify-content: unset;
+    place-content: space-between unset;
+    align-self: flex-start;
+    justify-self: baseline;
+    place-self: flex-start baseline;
+    align-items: center;
+    justify-items: stretch;
+    place-items: center stretch;
+}
+
+.important {
+    align-content: space-between !important;
+    justify-content: space-between !important;
+    place-content: space-between !important;
+    align-self: flex-start !important;
+    justify-self: baseline !important;
+    place-self: flex-start baseline !important;
+}
+
+.not-valid {
+    place-content: space-between unset 3;
+    place-self:;
+    place-self: !important;
+}

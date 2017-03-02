@@ -1,0 +1,22 @@
+.single {
+    place-content: space-between;
+    place-self: flex-end;
+    place-items: center;
+}
+
+.double {
+    place-content: space-between unset;
+    place-self: flex-start baseline;
+    place-items: center stretch;
+}
+
+.important {
+    place-content: space-between !important;
+    place-self: flex-start baseline !important;
+}
+
+.not-valid {
+    place-content: space-between unset 3;
+    place-self:;
+    place-self: !important;
+}
