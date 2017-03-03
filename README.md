@@ -1,4 +1,4 @@
-# postcss-place [![Build Status](https://travis-ci.org/malyw/postcss-place.svg)](https://travis-ci.org/malyw/postcss-place)
+# postcss-place-shorthands [![Build Status](https://travis-ci.org/malyw/postcss-place-shorthands.svg)](https://travis-ci.org/malyw/postcss-place-shorthands)
 
 > PostCSS plugin to polyfill the CSS Box Alignment shorthands: place-\<content|self|items\>
 
@@ -63,13 +63,13 @@ you will get (empty lines added for readability):
 ## Installation
 
 ```console
-$ npm install postcss-place
+$ npm install postcss-place-shorthands
 ```
 
 ## Usage
 
 ```js
-postcss([ require('postcss-place') ])
+postcss([ require('postcss-place-shorthands') ])
 ````
 
 Check how to use with [Gulp](https://github.com/postcss/gulp-postcss),

@@ -85,7 +85,7 @@ function getAlignmentDeclarations(declProp, declValues, hasImportant) {
 }
 
 // EXPORTS
-module.exports = postcss.plugin('postcss-place', () => {
+module.exports = postcss.plugin('postcss-place-shorthands', () => {
     return function (css) {
         // Runs through all of the nodes (declarations) in the file
         css.walkDecls((declaration) => {
