@@ -1,4 +1,4 @@
-# postcss-place-shorthands [![Build Status](https://travis-ci.org/malyw/postcss-place-shorthands.svg)](https://travis-ci.org/malyw/postcss-place-shorthands)
+# postcss-place-shorthands [![Build Status](https://travis-ci.org/malyw/postcss-place.svg)](https://travis-ci.org/malyw/postcss-place-shorthands)
 
 > PostCSS plugin to polyfill the CSS Box Alignment shorthands: place-\<content|self|items\>
 
